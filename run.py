@@ -24,7 +24,7 @@ if not API_KEY or not API_SECRET:
 BASE_URL = "https://fapi.pi42.com"
 WS_URL = "https://fawss.pi42.com/"
 
-SYMBOLS = ["XPTINR", "XPDINR"]
+SYMBOLS = ["ETHINR", "BTCINR"]
 
 CAPITAL_PER_TRADE = 10000
 RISE_PERCENT = 3
@@ -32,8 +32,8 @@ TP_PERCENT = 1.5
 TRADE_COOLDOWN = 20
 
 MIN_QTY = {
-    "XPTINR": 0.005,
-    "XPDINR": 0.005,
+    "ETHINR": 0.005,
+    "BTCINR": 0.005,
 }
 
 # ========= GLOBAL STATE =========
