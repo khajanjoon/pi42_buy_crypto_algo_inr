@@ -1,1 +1,1 @@
-# pi42_buy_crypto_algo_inr
+# pi_algo_commodity_only
